@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #08080e;
+}
+
+nav u1 {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:active {
+    background: rgba(255, 255, 255, 0.15)
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+main {
+    padding: 2rem;
+}
